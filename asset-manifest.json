@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/critterpedia/static/css/main.392082ad.css",
-    "main.js": "/critterpedia/static/js/main.2001a0e6.js",
+    "main.css": "/critterpedia/static/css/main.6c252a77.css",
+    "main.js": "/critterpedia/static/js/main.6200b492.js",
     "static/js/787.1ed0c42c.chunk.js": "/critterpedia/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/critterpedia/static/media/leaf.e7c2c4ee40d34e052927.png",
     "index.html": "/critterpedia/index.html",
-    "main.392082ad.css.map": "/critterpedia/static/css/main.392082ad.css.map",
-    "main.2001a0e6.js.map": "/critterpedia/static/js/main.2001a0e6.js.map",
+    "main.6c252a77.css.map": "/critterpedia/static/css/main.6c252a77.css.map",
+    "main.6200b492.js.map": "/critterpedia/static/js/main.6200b492.js.map",
     "787.1ed0c42c.chunk.js.map": "/critterpedia/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.392082ad.css",
-    "static/js/main.2001a0e6.js"
+    "static/css/main.6c252a77.css",
+    "static/js/main.6200b492.js"
   ]
 }
