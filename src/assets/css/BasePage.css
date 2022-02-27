@@ -1,48 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700;800&family=Roboto+Slab:wght@400;500;600;700;800&family=Indie+Flower&display=swap");
+
 * {
   padding: auto;
-  margin: auto;
 }
 
-body {
-  background-color: rgb(255, 255, 255);
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(214, 235, 190);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(129, 189, 90);
 }
 
 h1 {
-  color: rgb(255, 160, 72);
+  color: rgb(238, 105, 52);
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
   font-variant: small-caps;
-  text-shadow: black 2px 2px ;
-  font-size: 50px;
+  font-size: 72px;
+
+  text-align: right;
+  margin: 0px 0px 0px 10px;
+
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 2px;
 }
 
-h2 {
-  color: rgb(255, 111, 111);
+h3 {
+  color: rgb(85, 85, 85);
 
-  font-family:  'Open Sans', sans-serif;
-  font-weight: 200;
-  text-shadow: black 2px 2px;
-  text-align: right;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
+  text-align: center;
 
-  margin: 10px 0px 40px 0px;
+  font-family: "Roboto Slab", serif;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 24pt;
+
+  text-transform: capitalize;
+}
+
+h4 {
+  color: rgb(85, 85, 85);
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+
+  text-align: justify;
+
+  font-size: 16pt;
+}
+
+h5 {
+  color: rgb(85, 85, 85);
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+  text-align: center;
+
+  font-size: 12pt;
 }
 
 p {
-  color: rgb(12, 12, 12);
-  font-family: 'Open Sans', sans-serif;
+  color: rgb(85, 85, 85);
+  font-family: "Courier New", Courier, monospace;
   font-weight: 400;
-  /* text-shadow: black 1px 1px; */
-  text-align: justify;
+  text-align: left;
+
+  font-size: 12pt;
 }
 
 a {
- text-decoration: none;
- color: forestgreen;
+  text-decoration: none;
+  color: forestgreen;
 }
 
 a:hover {
-  color:rgb(0, 146, 146);
- }
+  color: rgb(0, 146, 146);
+}
 
 .flex {
   display: flex;
@@ -56,50 +101,94 @@ a:hover {
   flex-direction: row;
 }
 
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-content {
+  justify-content: center;
+}
 
 .main-div {
-  width: 50vw;
-  height: 80vh;
+  display: flex;
+  background-color: rgb(169, 212, 120);
 
-  margin: 4% auto;
+  padding: 100px;
 
-  box-shadow: 0 30px 40px rgba(0,0,0,.5);
-  
-  background-color: rgb(255, 228, 203);  
+  flex-direction: row;
+}
+
+.title {
+  margin: 10px 10px 20px 350px;
+}
+
+.book-div {
+  width: 750px;
+  height: 600px;
+
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.5);
+
+  background-color: rgb(255, 255, 255);
 
   border-radius: 3%;
-  border:rgb(240, 145, 90) solid 10px;
+  border: rgb(255, 240, 231) double 10px;
 
-  padding: 0 5% 0 5%;
+  padding: 10px;
 }
 
-.main-content-div {
-  padding: 0 10% 0 10%;
+.book-content {
+  position: relative;
+  padding: 0 10px 0 30px;
 }
 
-.box-fight {
-  width: 150px;
-  height: 150px;
+.div-spiral {
+  width: 50px;
+  height: 500px;
 
-  background-color: violet;
-  border-radius: 5%;
-  border:rgb(122, 0, 0) solid 2px;
+  position: relative;
+  left: 25px;
+}
 
-  filter: grayscale(100%);
+.book-spiral {
+  width: 50px;
+  height: 10px;
 
+  background-color: rgb(109, 17, 17);
+  border-radius: 30%;
+  border: rgb(141, 46, 46) solid 1px;
+
+  margin: 3px;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.critter-box {
+  width: 300px;
+  height: 300px;
+
+  background-color: rgb(250, 217, 247);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+
+  align-items: center;
+
+  margin: 10px 0 0 10px;
   contain: content;
+}
 
-  margin: 5px;
+.info-box {
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  margin: 0 20px 0 20px;
+
+  overflow-y: scroll;
+  contain: content;
 }
 
 .box-fight:hover {
   filter: grayscale(0%);
-  transition: .8s ease;
-
+  transition: 0.8s ease;
 }
 
 @media (max-width: 480px) {
-
-
-
 }
